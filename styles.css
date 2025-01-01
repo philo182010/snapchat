@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+   width: 90%;
+   max-width: 400px;
+   margin: auto;
+   padding-top : 100px; /* Centering in budget */
+}
+
+.logo-container {
+   text-align : center ;
+}
+
+.logo {
+   width : 100px ; /* Adjust size as necessary */
+}
+
+h2 {
+   text-align : center ;
+   color : #FFFC00; /* Same color as snapchat's yellow */
+}
+
+/* Styles for the contact form */
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+ border-radius :5px ; /* Rounded corners */
+ border:none ;/* No borders*/
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+ background-color:#fff;/* White background for inputs*/
+ box-shadow :0px -1px 4 px rgba(0,0,0,.2); /* Small shadow around inputs */ 
+ transition:.3s ease-in-out all; 
+}
+  
+/* Button styling */
+button{
+	background-color:#FFFC00; 
+	color:#000000 ;
+	cursor:pointer ;
+	font-weight:bold ;
+	border:none ;
+	border-radius
